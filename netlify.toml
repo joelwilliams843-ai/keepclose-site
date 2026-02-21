@@ -1,5 +1,6 @@
 [build]
   functions = "netlify/functions"
-
+# rebuild trigger
 [functions]
+
   node_bundler = "esbuild"
